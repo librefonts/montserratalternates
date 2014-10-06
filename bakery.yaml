@@ -1,0 +1,9 @@
+commit: HEAD
+process_files: [MontserratAlternates-Regular.ttf.ttx, MontserratAlternates-Bold.ttf.ttx,
+  src/MontserratAlternates-Regular.otf.ttx, src/MontserratAlternates-Bold.otf.ttx,
+  src/MontserratAlternates-Regular-backup-fonttools-prep-gasp-TTF.sfd, src/MontserratAlternates-Regular-after-fonttools-prep-gasp-TTF.sfd,
+  src/MontserratAlternates-Regular-TTF.sfd, src/MontserratAlternates-Bold-backup-fonttools-prep-gasp-TTF.sfd,
+  src/MontserratAlternates-Bold-after-fonttools-prep-gasp-TTF.sfd, src/MontserratAlternates-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
